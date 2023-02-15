@@ -392,16 +392,18 @@
       <div class="fil">
         <!-- Form -->
         <div class="col">
-          <input type="text" name="firstname" placeholder="Prénom" required="required">
-          <input type="text" name="lastname"  placeholder="Nom" required="required">
-          <input type="text" name="number"  placeholder="Numéro de téléphone" required="required">
-          <input type="text" name="email"  placeholder="Votre email" required="required">
-          <input type="text" name="subject"  placeholder="Sujet" required="required">
-          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required="required"></textarea>
-          <button type="submit">
-            Envoyer <i class="fa-solid fa-paper-plane"></i>
-            <span class="overlay"></span>
-          </button>
+          <form action="sendEmail.php" method="post">
+            <input type="text" name="firstname" placeholder="Prénom" required="required">
+            <input type="text" name="lastname"  placeholder="Nom" required="required">
+            <input type="text" name="number"  placeholder="Numéro de téléphone" required="required">
+            <input type="text" name="email"  placeholder="Votre email" required="required">
+            <input type="text" name="subject"  placeholder="Sujet" required="required">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required="required"></textarea>
+            <button type="submit">
+              Envoyer <i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay" aria-hidden="true"></span>
+            </button>
+          </form>
         </div>
         <!-- Map -->
         <div class="col">
