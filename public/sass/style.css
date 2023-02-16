@@ -205,9 +205,12 @@ html {
   margin: 20px auto;
   padding: 10px 22px;
   font-size: 16px;
-  color: #fff;
   position: relative;
   z-index: 10;
+}
+.aboutme button a {
+  text-decoration: none;
+  color: #fff;
 }
 .aboutme button .overlay {
   position: absolute;
@@ -292,33 +295,33 @@ html {
   width: 0;
   animation: 2s htmlcss forwards;
 }
-.skills .skill .php {
+.skills .skill .PHP {
   width: 0;
-  animation: 2s php forwards;
+  animation: 2s PHP forwards;
 }
-.skills .skill .wordpress {
+.skills .skill .CMSWordpress {
   width: 0;
-  animation: 2s wordpress forwards;
+  animation: 2s CMSWordpress forwards;
 }
-.skills .skill .react {
+.skills .skill .React {
   width: 0;
-  animation: 2s react forwards;
+  animation: 2s React forwards;
 }
-.skills .skill .symfony {
+.skills .skill .Symfony {
   width: 0;
-  animation: 2s symfony forwards;
+  animation: 2s Symfony forwards;
 }
-.skills .skill .sql {
+.skills .skill .SQL {
   width: 0;
-  animation: 2s sql forwards;
+  animation: 2s SQL forwards;
 }
-.skills .skill .github {
+.skills .skill .Github {
   width: 0;
-  animation: 2s github forwards;
+  animation: 2s Github forwards;
 }
-.skills .skill .photoshop {
+.skills .skill .Photoshop {
   width: 0;
-  animation: 2s photoshop forwards;
+  animation: 2s Photoshop forwards;
 }
 .skills .skill .communication {
   width: 0;
@@ -373,7 +376,7 @@ html {
     width: 90%;
   }
 }
-@keyframes php {
+@keyframes PHP {
   0% {
     width: 0;
   }
@@ -381,7 +384,7 @@ html {
     width: 85%;
   }
 }
-@keyframes wordpress {
+@keyframes CMSWordpress {
   0% {
     width: 0;
   }
@@ -389,7 +392,7 @@ html {
     width: 80%;
   }
 }
-@keyframes react {
+@keyframes React {
   0% {
     width: 0;
   }
@@ -397,7 +400,7 @@ html {
     width: 65%;
   }
 }
-@keyframes symfony {
+@keyframes Symfony {
   0% {
     width: 0;
   }
@@ -405,7 +408,7 @@ html {
     width: 90%;
   }
 }
-@keyframes sql {
+@keyframes SQL {
   0% {
     width: 0;
   }
@@ -413,7 +416,7 @@ html {
     width: 90%;
   }
 }
-@keyframes github {
+@keyframes Github {
   0% {
     width: 0;
   }
@@ -421,7 +424,7 @@ html {
     width: 90%;
   }
 }
-@keyframes photoshop {
+@keyframes Photoshop {
   0% {
     width: 0;
   }
