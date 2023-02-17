@@ -650,6 +650,10 @@ html {
   width: 100%;
   display: block;
 }
+.portfolio .gallery .project a {
+  text-decoration: none;
+  color: #fff;
+}
 .portfolio .gallery .project .overlay {
   position: absolute;
   top: 0;
