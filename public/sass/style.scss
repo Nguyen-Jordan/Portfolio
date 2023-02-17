@@ -295,33 +295,33 @@ html{
     width: 0;
     animation: 2s htmlcss forwards;
   }
-  & .skill .PHP{
+  & .skill .php{
     width: 0;
-    animation: 2s PHP forwards;
+    animation: 2s php forwards;
   }
-  & .skill .CMSWordpress{
+  & .skill .wordpress{
     width: 0;
-    animation: 2s CMSWordpress forwards;
+    animation: 2s wordpress forwards;
   }
-  & .skill .React{
+  & .skill .react{
     width: 0;
-    animation: 2s React forwards;
+    animation: 2s react forwards;
   }
-  & .skill .Symfony{
+  & .skill .symfony{
     width: 0;
-    animation: 2s Symfony forwards;
+    animation: 2s symfony forwards;
   }
-  & .skill .SQL{
+  & .skill .sql{
     width: 0;
-    animation: 2s SQL forwards;
+    animation: 2s sql forwards;
   }
-  & .skill .Github{
+  & .skill .github{
     width: 0;
-    animation: 2s Github forwards;
+    animation: 2s github forwards;
   }
-  & .skill .Photoshop{
+  & .skill .photoshop{
     width: 0;
-    animation: 2s Photoshop forwards;
+    animation: 2s photoshop forwards;
   }
   & .skill .communication{
     width: 0;
@@ -368,31 +368,31 @@ html{
   0%{width: 0;}
   100%{width: 90%;}
 }
-@keyframes PHP {
+@keyframes php {
   0%{width: 0;}
   100%{width: 85%;}
 }
-@keyframes CMSWordpress {
+@keyframes wordpress {
   0%{width: 0;}
   100%{width: 80%;}
 }
-@keyframes React {
+@keyframes react {
   0%{width: 0;}
   100%{width: 65%;}
 }
-@keyframes Symfony {
+@keyframes symfony {
   0%{width: 0;}
   100%{width: 90%;}
 }
-@keyframes SQL {
+@keyframes sql {
   0%{width: 0;}
   100%{width: 90%;}
 }
-@keyframes Github {
+@keyframes github {
   0%{width: 0;}
   100%{width: 90%;}
 }
-@keyframes Photoshop {
+@keyframes photoshop {
   0%{width: 0;}
   100%{width: 85%;}
 }
@@ -576,6 +576,10 @@ html{
       & img{
         width: 100%;
         display: block;
+      }
+      & a{
+        text-decoration: none;
+        color: #fff;
       }
       & .overlay{
         position: absolute;
